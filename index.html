@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="output">
+      <div class="previous-operand" data-previous-operand></div>
+      <div class="current-operand" data-current-operand></div>
+    </div>
+      <button type="button" class="btn btn-outline-light" data-number>7</button>
+      <button type="button" class="btn btn-outline-light" data-number>8</button>
+      <button type="button" class="btn btn-outline-light" data-number>9</button>
+      <button type="button" class="btn btn-outline-warning" data-operation>+</button>
+      <button type="button" class="btn btn-outline-light" data-number>4</button>
+      <button type="button" class="btn btn-outline-light" data-number>5</button>
+      <button type="button" class="btn btn-outline-light" data-number>6</button>
+      <button type="button" class="btn btn-outline-warning" data-operation>-</button>
+      <button type="button" class="btn btn-outline-light" data-number>1</button>
+      <button type="button" class="btn btn-outline-light" data-number>2</button>
+      <button type="button" class="btn btn-outline-light" data-number>3</button>
+      <button type="button" class="btn btn-outline-warning" data-operation>*</button>
+      <button type="button" class="btn btn-outline-light" data-number>.</button>
+      <button type="button" class="btn btn-outline-light" data-number>0</button>
+      <button type="button" class="btn btn-danger" data-delete>del</button>
+      <button type="button" class="btn btn-outline-warning" data-operation>/</button>
+      <button type="button" class="btn btn-warning" data-all-clear>C</button>
+      <button type="button" class="btn btn-success" data-equals>=</button>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

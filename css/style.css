@@ -1,0 +1,28 @@
+body {
+  background: #b7b1e7;
+}
+.container {
+  max-width: 400px;
+  margin-top: 100px;
+  background: #7e76b4;
+}
+.output {
+  height: 100px;
+  padding: 5px;
+  text-align: right;
+}
+.output .previous-operand{
+  color: rgba(255,255, 255, 0.75);
+  font-size: 20px;
+}
+.output .current-operand{
+  color: white;
+  font-size: 30px;
+}
+.btn {
+  width: 90px;
+  margin-bottom: 5px;
+}
+.btn:last-of-type {
+  width: 279px;
+}
